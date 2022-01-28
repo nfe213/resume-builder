@@ -1,0 +1,115 @@
+.header {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.center {
+  font-size: 32px;
+  color: var(--d-grey);
+  font-family: sans-serif;
+  width: max-content;
+  margin: 20px auto;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
+}
+
+.block {
+  background-color: var(--d-grey);
+  margin-bottom: 42px;
+  height: max-content;
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  margin-top: 0px;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
+}
+
+.block-margin {
+  margin-top: 10px;
+}
+
+.no-logo {
+  display: none;
+}
+
+.no-logo-text {
+  width: 100%;
+  padding-left: 40px;
+}
+
+.block-logo {
+  width: 13%;
+  padding: 40px;
+  float: left;
+}
+
+.block-text {
+  margin: 40px 0px;
+  display: inline-block;
+  color: white;
+  max-width: 75%;
+}
+
+@media (max-width: 970px) {
+  .block-logo {
+    display: none;
+  }
+  .block-text {
+    width: 100%;
+    margin: 40px;
+  }
+  h1 {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 510px) {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 11px;
+  }
+  h2,h3  {
+    font-size: 16px;
+  }
+
+}
+
+.block-name {
+  font-size: 24px;
+}
+
+.involvement, .links {
+  color: #888;
+}
+
+.links {
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+.block-link:hover {
+  background: white;
+  color: var(--crimson);
+  transition: .4s;
+}
+
+.block-description {
+  padding-top: 21px;
+  color: white;
+  padding-top: 9px;
+}
+
+.block-link {
+  color: white;
+  padding: 6px;
+  margin: 15px;
+  border-radius: 3px;
+}
